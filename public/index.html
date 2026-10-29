@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cronograma do Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="banner">
+    <img class="logo" src="logo.png" alt="LH Eletrificados - Motos Elétricas">
+    <h1>Cronograma do Marketing</h1>
+  </header>
+
+  <div class="toolbar">
+    <button id="btn-add" type="button">+ Nova linha</button>
+    <button id="btn-reset" type="button" class="secondary">Restaurar exemplo</button>
+    <button id="btn-sair" type="button" class="secondary">Sair</button>
+    <span class="hint">Clique em qualquer célula para editar. Tudo é salvo automaticamente neste navegador.</span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Dia da Semana</th>
+          <th>Modo de Publicação</th>
+          <th class="wide">Assunto</th>
+          <th>Participante(s)</th>
+          <th>Horário de Postagem</th>
+          <th>Status</th>
+          <th>Hora Postada</th>
+          <th>Resultado</th>
+          <th class="narrow"></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+ <script src="script.js" type="module"></script>
+</body>
+</html>
